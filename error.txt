@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "d:\OneDrive - Higher Education Commission\Desktop\KIT_Project\main.py", line 253, in <module>
+    snister.commander()
+  File "d:\OneDrive - Higher Education Commission\Desktop\KIT_Project\main.py", line 31, in commander
+    niche_dict_list.append(self.deep_scrape(item))
+  File "d:\OneDrive - Higher Education Commission\Desktop\KIT_Project\main.py", line 141, in deep_scrape
+    driver = self.driver_manager(popular_tuple[1])
+  File "d:\OneDrive - Higher Education Commission\Desktop\KIT_Project\main.py", line 71, in driver_manager
+    driver = self.gen_driver()
+  File "d:\OneDrive - Higher Education Commission\Desktop\KIT_Project\main.py", line 56, in gen_driver
+    driver = uc.Chrome(options=chrome_options)
+  File "C:\Users\mobee\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\undetected_chromedriver\__init__.py", line 233, in __init__
+    patcher.auto()
+  File "C:\Users\mobee\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\undetected_chromedriver\patcher.py", line 130, in auto
+    self.unzip_package(self.fetch_package())
+  File "C:\Users\mobee\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\undetected_chromedriver\patcher.py", line 166, in fetch_package
+    return urlretrieve(u)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1520.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 280, in urlretrieve
+    raise ContentTooShortError(
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 4030464 out of 6425778 bytes>
