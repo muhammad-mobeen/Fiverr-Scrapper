@@ -1,5 +1,4 @@
 # from selenium import webdriver
-from click import command
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait  #..............
@@ -33,7 +32,7 @@ class HQ:
             # self.forge_excel({"niche": niche[0], "niche_item_list": niche_dict_list})
             niche_tree_list.append({"niche": niche[0], "niche_item_list": niche_dict_list})
 
-        print("\n\n\nKarnamy strats here no go are no entrance hahahahaahaha!!\n\n")
+        print("\n\n\nKarnamy strats here no go area no entrance hahahahaahaha!!\n\n")
         # print("niche_tree_list length: ", len(niche_tree_list))
         # print("Niche: ", niche_tree_list[0]["niche"])
         # print("Services: ", niche_tree_list[0]["niche_item_list"][0]["services_amt"])
